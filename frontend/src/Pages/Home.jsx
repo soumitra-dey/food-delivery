@@ -1,7 +1,7 @@
 import {Container,Image,Input,Text,InputGroup,InputLeftElement, Flex,Box,Link} from "@chakra-ui/react"
 import { Navbar } from "../Components/Navbar"
 import styles from "./Home.module.css"
-import {GoSearch} from "react-icons/go"
+import { Footer } from "../Components/Footer"
 export const Home=()=>{
 
     return <>
@@ -48,6 +48,7 @@ export const Home=()=>{
                     </Flex>
 
                 </Container >
+                <Footer/>
     </Container>
     </>
 }
